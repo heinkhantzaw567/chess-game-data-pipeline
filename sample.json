@@ -1,0 +1,99 @@
+{
+  "games": [
+    {
+      "url": "https://www.chess.com/game/live/1000000001",
+      "pgn": "[Event \"Live Chess\"]\n[White \"Alice\"]\n[Black \"Bob\"]\n[Result \"1-0\"]\n[ECO \"B90\"]\n\n1. e4 c5 2. Nf3 d6 1-0",
+      "time_control": "600",
+      "end_time": 1578347000,
+      "rated": true,
+      "time_class": "rapid",
+      "rules": "chess",
+      "eco": "https://www.chess.com/openings/Sicilian-Defense-Najdorf-Variation",
+      "white": {
+        "rating": 2100,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/alice",
+        "username": "Alice",
+        "uuid": "aaaa0001-0000-0000-0000-000000000001"
+      },
+      "black": {
+        "rating": 2050,
+        "result": "checkmated",
+        "@id": "https://api.chess.com/pub/player/bob",
+        "username": "Bob",
+        "uuid": "aaaa0002-0000-0000-0000-000000000002"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/1000000002",
+      "pgn": "[Event \"Live Chess\"]\n[White \"Carol\"]\n[Black \"Dave\"]\n[Result \"0-1\"]\n[ECO \"C50\"]\n\n1. e4 e5 2. Nf3 Nc6 0-1",
+      "time_control": "600",
+      "end_time": 1578347100,
+      "rated": true,
+      "time_class": "rapid",
+      "rules": "chess",
+      "eco": "https://www.chess.com/openings/Italian-Game",
+      "white": {
+        "rating": 1800,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/carol",
+        "username": "Carol",
+        "uuid": "aaaa0003-0000-0000-0000-000000000003"
+      },
+      "black": {
+        "rating": 1975,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/dave",
+        "username": "Dave",
+        "uuid": "aaaa0004-0000-0000-0000-000000000004"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/1000000003",
+      "pgn": "[Event \"Live Chess\"]\n[White \"Alice\"]\n[Black \"Dave\"]\n[Result \"1/2-1/2\"]\n[ECO \"B90\"]\n\n1. e4 c5 2. Nf3 d6 1/2-1/2",
+      "time_control": "600",
+      "end_time": 1578347200,
+      "rated": true,
+      "time_class": "rapid",
+      "rules": "chess",
+      "eco": "https://www.chess.com/openings/Sicilian-Defense-Najdorf-Variation",
+      "white": {
+        "rating": 2120,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/alice",
+        "username": "Alice",
+        "uuid": "aaaa0001-0000-0000-0000-000000000001"
+      },
+      "black": {
+        "rating": 1980,
+        "result": "agreed",
+        "@id": "https://api.chess.com/pub/player/dave",
+        "username": "Dave",
+        "uuid": "aaaa0004-0000-0000-0000-000000000004"
+      }
+    },
+    {
+      "url": "https://www.chess.com/game/live/1000000004",
+      "pgn": "[Event \"Live Chess\"]\n[White \"Bob\"]\n[Black \"Carol\"]\n[Result \"1-0\"]\n\n1. d4 d5 2. c4 e6 1-0",
+      "time_control": "600",
+      "end_time": 1578347300,
+      "rated": false,
+      "time_class": "blitz",
+      "rules": "chess",
+      "white": {
+        "rating": 2060,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/bob",
+        "username": "Bob",
+        "uuid": "aaaa0002-0000-0000-0000-000000000002"
+      },
+      "black": {
+        "rating": 1790,
+        "result": "timeout",
+        "@id": "https://api.chess.com/pub/player/carol",
+        "username": "Carol",
+        "uuid": "aaaa0003-0000-0000-0000-000000000003"
+      }
+    }
+  ]
+}
